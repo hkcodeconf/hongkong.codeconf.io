@@ -1,0 +1,102 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+@font-face {
+  font-family: 'DOS';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../font/fixedsys/Fixedsys500c.eot');
+  src: local('☺'), url('../font/fixedsys/Fixedsys500c.woff') format('woff'), url('../font/fixedsysFixedsys500c.ttf') format('truetype'), url('../font/fixedsys/Fixedsys500c.svg') format('svg');
+}
+
+body, .brand-logo {
+  font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
+}
+
+.rude-blue {
+  background-color: #39A8DF !important;
+}
+
+.rude-blue-text {
+  color: #39A8DF;
+}
+
+.heart {
+  color: #e35d5d;
+}
+
+/* http://stackoverflow.com/a/17203597 */
+.blink {
+  -webkit-animation: blink 1s steps(5, start) infinite;
+  -moz-animation:    blink 1s steps(5, start) infinite;
+  -o-animation:      blink 1s steps(5, start) infinite;
+  animation:         blink 1s steps(5, start) infinite;
+}
+
+@-webkit-keyframes "blink" {
+  to { visibility: hidden; }
+}
+@-moz-keyframes blink {
+  to { visibility: hidden; }
+}
+@-o-keyframes blink {
+  to { visibility: hidden; }
+}
+@keyframes blink {
+  to { visibility: hidden; }
+}
+
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+.parallax {
+  background: white;
+  color: black;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+
+.icon-block {
+  padding: 0 15px;
+}
+
+footer.page-footer {
+  margin: 0;
+}
