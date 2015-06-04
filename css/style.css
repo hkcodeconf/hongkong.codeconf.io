@@ -1,10 +1,12 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
+/*
+
+colors:
+
+rude-ice:       #39A8DF
+rude-blue:      #1E72B8
+rude-dark-blue: #16568A
+
+*/
 
 @font-face {
   font-family: 'DOS';
@@ -25,24 +27,18 @@ body {
 h1 {
   font-size: 3rem;
   line-height: 3.3rem;
-  margin: 1.5rem 0 1.2rem 0; }
+  margin: 1.5rem 0 1.2rem 0;
+}
 
 h2 {
   font-size: 2rem;
   line-height: 2.2rem;
-  margin: 1rem 0 0.8rem 0; }
+  margin: 1rem 0 0.8rem 0;
+}
 
 .section-header {
   text-decoration: underline;
   text-decoration-color: #16568A;
-}
-
-.rude-blue {
-  background-color: #39A8DF !important;
-}
-
-.rude-blue-text {
-  color: #39A8DF;
 }
 
 .heart {
@@ -50,48 +46,60 @@ h2 {
 }
 
 /* http://stackoverflow.com/a/17203597 */
+
 .blink {
   -webkit-animation: blink 1s steps(5, start) infinite;
-  -moz-animation:    blink 1s steps(5, start) infinite;
-  -o-animation:      blink 1s steps(5, start) infinite;
-  animation:         blink 1s steps(5, start) infinite;
+  -moz-animation: blink 1s steps(5, start) infinite;
+  -o-animation: blink 1s steps(5, start) infinite;
+  animation: blink 1s steps(5, start) infinite;
 }
 
 @-webkit-keyframes "blink" {
-  to { visibility: hidden; }
-}
-@-moz-keyframes blink {
-  to { visibility: hidden; }
-}
-@-o-keyframes blink {
-  to { visibility: hidden; }
-}
-@keyframes blink {
-  to { visibility: hidden; }
+  to {
+    visibility: hidden;
+  }
 }
 
-.center {
-  text-align: center;
+@-moz-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+@-o-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
 }
 
 .container {
   padding: 0 1.5rem;
   margin: 0 auto;
   max-width: 1280px;
-  width: 90%; }
+  width: 90%;
+}
 
 @media only screen and (min-width : 601px) {
   .container {
-    width: 85%; } }
+    width: 85%;
+  }
+}
 
 @media only screen and (min-width : 993px) {
   .container {
-    width: 70%; } }
+    width: 70%;
+  }
+}
 
-section, .section {
+section {
   padding-top: 1rem;
   padding-bottom: 1rem;
-
   background-color: #39A8DF;
   color: white;
 }
@@ -105,9 +113,10 @@ section, .section {
 a {
   color: #16568A;
 }
-  a:hover {
-    color: black;
-  }
+
+a:hover {
+  color: black;
+}
 
 a.shouty-button {
   border: 2px solid #16568A;
@@ -118,14 +127,15 @@ a.shouty-button {
   background-color: white;
   color: #16568A;
 }
-  a.shouty-button:hover {
-    background-color: #39A8DF;
-  }
 
 @media only screen and (min-width : 993px) {
   a.shouty_button {
     font-size: 3rem;
   }
+}
+
+a.shouty-button:hover {
+  background-color: #39A8DF;
 }
 
 header {
@@ -139,12 +149,14 @@ header {
 li {
   list-style: none;
 }
-  li:before {
-      content: "• ";
-      color:  #16568A;
-  }
 
-header h1, header h2 {
+li:before {
+  content: "• ";
+  color: #16568A;
+}
+
+header h1,
+header h2 {
   font-size: 2.1rem;
   line-height: 2.3rem;
   margin: 1.05rem 0 0.84rem 0;
@@ -164,7 +176,6 @@ p {
   width: 100%;
   display: block;
 }
-
 
 footer {
   text-align: center;
