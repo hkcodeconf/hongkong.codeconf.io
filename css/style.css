@@ -140,7 +140,7 @@ a.shouty-button {
   border: 2px solid #16568A;
   text-decoration: none;
   padding: 2px 4px;
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 3.5rem;
   background-color: white;
   color: #16568A;
@@ -149,7 +149,11 @@ a.shouty-button {
     background-color: #39A8DF;
   }
 
-
+@media only screen and (min-width : 993px) {
+  a.shouty_button {
+    font-size: 3rem;
+  }
+}
 
 header {
   text-align: center;
