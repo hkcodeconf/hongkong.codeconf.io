@@ -123,9 +123,10 @@ section, .section {
   color: white;
 }
 
-.white {
+.header-section {
   background-color: white;
   color: #222;
+  text-align: center;
 }
 
 a {
