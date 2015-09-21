@@ -50,7 +50,13 @@
 
 - slug: godfrey-chan
   name: Godfrey Chan
-  title: "Stories from Afar: Hong Konger in North America"
+  title: "Stories from afar: Hong Konger in North America"
   image_url: "/images/2015/godfrey-chan.jpg"
   bio: "Godfrey Chan is a software developer born and raised in Hong Kong. He is a member of the Ruby on Rails core team and a contributor to various open-source projects. He currently works at Tilde Inc in Portland, Oregon, splitting his time between building Skylight and open-source consulting. In his previous life, he was also an award-winning WordPress™ plugin author."
   github: chancancode
+
+- slug: gram-lok
+  name: Gram Lok
+  title: "Let's Hack Hong Kong!"
+  image_url: "/images/2015/gram-lok.jpg"
+  bio: "Gram is a hacker enthusiast, developer and amateur MMA fighter. He believes that knowledge is meant to be shared to improve the generations to come. After moving to Hong Kong, he has become a driving force in the startup community mentoring, helping and building the next generation of platforms, services and apps."
