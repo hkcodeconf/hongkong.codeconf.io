@@ -1,4 +1,6 @@
-
+---
+layout: default
+---
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -87,265 +89,24 @@
         </a>
 
         <ul class="speakers">
+          {% for speaker in site.data.speakers %}
           <li>
-            <div class="speaker" id="amber-matthews">
+            <div class="speaker" id="{{ speaker.slug }}">
               <div class="speaker-body">
                 <figure>
-                  <img src="images/amber-matthews.jpg" alt="picture of Amber Matthews">
+                  <img src="{{ speaker.image_url }}" alt="picture of {{ speaker.name }}">
                 </figure>
-                <a href="#amber-matthews" class="section-self-link">
-                  <h3>Amber Matthews</h3>
+                <a href="#{{ speaker.slug }}" class="section-self-link">
+                  <h3>{{ speaker.name }}</h3>
                 </a>
 
                 <p>
-                  Amber is a UX designer and digital strategist/geek plus an unashamed sports nut.
-                </p>
-
-                <p>
-                  She has a black belt in martial arts, but says that she doesn't bite. Honest.
+                  {{ speaker.bio }}
                 </p>
               </div>
             </div>
           </li>
-
-          <li>
-            <div class="speaker" id="andrew-medworth">
-              <figure>
-                <img src="images/andrew-medworth.jpg" alt="picture of Andrew Medworth">
-              </figure>
-              <div class="speaker-body">
-                <a href="#andrew-medworth" class="section-self-link">
-                  <h3>Andrew Medworth</h3>
-                </a>
-
-                <p>
-                  Andrew is a British software engineer who has been living in Hong Kong since 2010.
-                </p>
-
-                <p>
-                  His interests are programming languages, music, chess, philosophy and Chinese language.
-                </p>
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <div class="speaker" id="bart-verkoeijen">
-              <figure>
-                <img src="images/bart-verkoeijen.jpg" alt="picture of Bart Verkoeijen">
-              </figure>
-              <div class="speaker-body">
-                <a href="#bart-verkoeijen" class="section-self-link">
-                  <h3>Bart Verkoeijen</h3>
-                </a>
-
-                <p>
-                  Bart is a software developer building apps, web and cloud.
-                </p>
-
-                <p>
-                  With over 10 years experience in web development, he's spent the past year working on Surround App.
-                </p>
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <div class="speaker" id="brendan-tang">
-              <figure>
-                <img src="images/brendan-tang.jpg" alt="picture of Brendan Tang">
-              </figure>
-              <div class="speaker-body">
-                <a href="#brendan-tang" class="section-self-link">
-                  <h3>Brendan Tang</h3>
-                </a>
-
-                <p>
-                  Brendan is a hacker, coder, artist, and open source contributor.
-                </p>
-
-                <p>
-                  He's worked in Shanghai and Beijing, and is now co-founder of Innohat in Hong Kong.
-                </p>
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <div class="speaker" id="hubert-lee">
-              <figure>
-                <img src="images/hubert-lee.jpg" alt="picture of Hubert Lee">
-              </figure>
-              <div class="speaker-body" class="section-self-link">
-                <a href="#hubert-lee" class="section-self-link">
-                  <h3>Hubert Lee</h3>
-                </a>
-
-                <p>
-                  Hubert Lee is a technologist, a tinkerer, and a traveler.
-                </p>
-
-                <p>
-                  He moved to Hong Kong in 2012 to work with Thought Sauce, and has since started dabbling with mobile apps for Android.
-                </p>
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <div class="speaker" id="jonas-karlsson">
-              <figure>
-                <img src="images/jonas-karlsson.jpg" alt="picture of Jonas S Karlsson">
-              </figure>
-              <div class="speaker-body">
-                <a href="#jonas-karlsson" class="section-self-link">
-                  <h3>Jonas S Karlsson</h3>
-                </a>
-
-                <p>
-                  Jonas used to build the storage and indexing software for Google.
-                </p>
-
-                <p>
-                  Now he spends his time travelling between Hackerspaces all over Asia.
-                </p>
-
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <div class="speaker" id="matthew-lehner">
-              <figure>
-                <img src="images/matthew-lehner.jpg" alt="picture of Matthew Lehner">
-              </figure>
-              <div class="speaker-body">
-                <a href="#matthew-lehner" class="section-self-link">
-                  <h3>Matthew Lehner</h3>
-                </a>
-
-                <p>
-                  Matthew is a front-end perfectionist, back end architect, and all around good guy.
-                </p>
-
-                <p>
-                  He's interested in creating simple, reliable software, and simple, reliable businesses.
-                </p>
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <div class="speaker" id="michelle-sun">
-              <figure>
-                <img src="images/michelle-sun.jpg" alt="picture of Michelle Sun">
-              </figure>
-
-              <div class="speaker-body">
-                <a href="#michelle-sun" class="section-self-link">
-                  <h3>Michelle Sun</h3>
-                </a>
-
-                <p>
-                  Michelle is co-founder and CEO of First Code Academy.
-                </p>
-
-                <p>
-                  She wants to empower the world to use technology to express themselves and bring their ideas to life.
-                </p>
-
-                <p>
-                  She started First Code Academy to provide hands-on learning opportunities in software development in Asia.
-                </p>
-
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <div class="speaker" id="muan-chiou">
-              <figure>
-                <img src="images/muan-chiou.jpg" alt="picture of Mu-An Chiou">
-              </figure>
-              <div class="speaker-body">
-                <a href="#muan-chiou" class="section-self-link">
-                  <h3>Mu-An Chiou</h3>
-                </a>
-
-                <p>
-                  Mu-An is a designer at Github. She's also a 台灣人.
-                </p>
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <div class="speaker" id="pedro-pimentel">
-              <figure>
-                <img src="images/pedro-pimentel.jpg" alt="picture of Pedro Pimentel">
-              </figure>
-
-              <div class="speaker-body">
-                <a href="#pedro-pimentel" class="section-self-link">
-                  <h3>Pedro Pimentel</h3>
-                </a>
-
-                <p>
-                  Pedro is a full-stack software & social engineer.
-                </p>
-
-                <p>
-                  He can seamlessly switch between talking code and talking with humans thanks to his experience working with consultancies Thoughtworks and ThoughtSauce.
-                </p>
-
-                <p>
-                  Originally from Brazil, he came to Asia to change the world and, moreover, change himself.
-                </p>
-
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <div class="speaker" id="richard-cohen">
-              <figure>
-                <img src="images/richard-cohen.jpg" alt="picture of Richard Cohen">
-              </figure>
-              <div class="speaker-body">
-                <a href="#richard-cohen" class="section-self-link">
-                  <h3>Richard Cohen</h3>
-                </a>
-
-                <p>
-                  Richard is "Mr Android" in Hong Kong.
-                  But he actually spends most of his time working with Python and Django!
-                </p>
-
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <div class="speaker" id="sebastian-korfmann">
-              <figure>
-                <img src="images/sebastian-korfmann.jpg" alt="picture of Sebastian Korfmann">
-              </figure>
-              <div class="speaker-body">
-                <a href="#sebastian-korfmann" class="section-self-link">
-                  <h3>Sebastian Korfmann</h3>
-                </a>
-
-                <p>
-                  Sebastian is a seasoned Web-Engineer from Germany, working for Bulletproof Networks in Australia.
-                </p>
-
-                <p>
-                  He loves Ruby and Docker. When he's not travelling around the world he's running meet-ups for the startup community in Saigon.
-                </p>
-              </div>
-            </div>
-          </li>
-
+          {% endfor %}
         </ul>
       </div>
     </section>
