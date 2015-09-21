@@ -12,6 +12,7 @@
   image_url: "/images/2015/tony-wong.jpg"
   bio: "Tony Wong, co-founder and CTO of Shopline, is an entrepreneur and software engineer that has extensive experience in Web and Mobile Apps development. He is passionate about startups and is experienced in startup dynamics as a Founding Member of Viss, a mobile app focusing on fashion in Asia. Tony was an Overall Winner at Startup Weekend HK 2013 and he also holds a Master of Science from HKUST Business School. Prior to moving to Hong Kong, Tony has lived and worked in different parts of the world, including Latin America, Canada and other parts of South East Asia, giving him unique insight into many emerging markets around the globe."
   twitter: tonywongk
+  github: tonywongk
 
 - slug: jonas-karlsson
   name: Jonas S Karlsson
@@ -19,6 +20,7 @@
   image_url: "/images/2015/jonas-karlsson.jpg"
   bio: "Jonas S Karlsson, PhD, travelling Zen Hacker, likes do build new programming languages like pandalang.org and database kernels. Worked at Google building Google Megastore that underlies and scales Google App Engine consulting with numerous projects on how to scale to millions of users."
   twitter: jonasskarlsson
+  github: yesco
 
 - slug: mart-van-de-ven
   name: Mart van de Ven
@@ -26,6 +28,7 @@
   image_url: "/images/2015/mart-van-de-ven.jpg"
   bio: "Mart is the director of Droste, a Hong Kong-based Data Science Consultancy, a Data Science Instructor at General Assembly, Co-founder of Open Data Hong Kong, and the convener for Symbol & Key."
   twitter: tijptjik
+  github: tijptjik
 
 - slug: donal-ellis
   name: Donal Ellis
@@ -33,6 +36,7 @@
   image_url: "/images/2015/donal-ellis.jpg"
   bio: "Donal is passionate about sharing knowledge. He spent many years in education, first as a computer science lecturer then as a software engineer, followed by a short detour into the world of startups. Now he is an enterprise support engineer for GitHub where he continues his passion of helping people build software better, together."
   github: donal
+  twitter: nashape
 
 - slug: jack-chen
   name: Jack Chen
@@ -40,13 +44,15 @@
   image_url: "/images/2015/jack-chen.jpg"
   bio: "Jack has devoted himself to Ruby development since he graduated. He is keen to open-source self-tested projects and give talks at conferences and Codeaholics. Having worked in different institutions (startups, 4A agency, travel company and web consultancy), he is happy to see technology bring productivity, efficiency and change the world. He is fond of Agile development, but also tries his best to be agile physically in terms of running, swimming and as a softball catcher!"
   github: aquajach
+  twitter: aquajach
 
 - slug: pedro-pimentel
   name: Pedro Pimentel
   title: "The Path to Continuous Delivery"
   image_url: "/images/2015/pedro-pimentel.jpg"
   bio: "Pedro is a full-stack software & social engineer. He can seamlessly switch between talking code and talking with humans thanks to his experience working in consulting companies like Thoughtworks and ThoughtSauce. Originally from Brazil, he came to Asia to change the world and, moreover, change himself. Currently he's leading development teams at Wallem, a multi-national logistics company."
-  github: _pedropimentel_
+  github: zukunftsalick
+  twitter: zukunftsalick
 
 - slug: godfrey-chan
   name: Godfrey Chan
@@ -54,3 +60,4 @@
   image_url: "/images/2015/godfrey-chan.jpg"
   bio: "Godfrey Chan is a software developer born and raised in Hong Kong. He is a member of the Ruby on Rails core team and a contributor to various open-source projects. He currently works at Tilde Inc in Portland, Oregon, splitting his time between building Skylight and open-source consulting. In his previous life, he was also an award-winning WordPress™ plugin author."
   github: chancancode
+  twitter: chancancode
