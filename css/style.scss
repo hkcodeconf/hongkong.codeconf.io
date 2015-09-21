@@ -421,6 +421,10 @@ frame {
 	}
 }
 
+.twitter, .github {
+	color: $light;
+	font-weight: bold;
+}
 
 //this is the bootstrap grid
 [class*=' col-'] {
