@@ -95,7 +95,7 @@ li {
 	list-style: none;
 }
 
-h1, h2, h3 {
+h1, h2 {
 	font-weight: 300;
 	font-family: 'fixedsys';
 	text-transform: uppercase;
@@ -113,7 +113,6 @@ h1, h2, h3 {
 	&:hover, &:active, &:focus {
 		color: $dark;
 		text-shadow: -2px -2px 0px $red;
-
 	}
 }
 
@@ -150,7 +149,45 @@ section {
 	}
 }
 
-#about, #speakers {
+#speakers {
+	background: lighten($blue, 10%);
+	color: $light;
+	.speakers {
+		padding-left: 0;
+	}
+	.container {
+		padding: 0;
+		max-width: 40em;
+		margin: 0 auto;
+	}
+	h3 {
+		text-align: center;
+		font-weight: 400;
+		margin-top: 0;
+		padding-bottom: 10px;
+		border-bottom: 1px dotted $light;
+		text-shadow: none;
+		font-size: inherit;
+	}
+	.section-self-link {
+		display: block;
+		background: transparent;
+	}
+	li {
+		list-style: none;
+		margin-bottom: 60px;
+	}
+	img {
+		border-radius: 50%;
+		border:3px solid $light;
+		max-width: 130px;
+	}
+	.section-self-link + p {
+		margin-top: 10px;
+	}
+}
+
+#about {
 	background: lighten($blue, 10%);
 	color: $light;
 	h1, h2, h3 {
@@ -342,23 +379,6 @@ frame {
 	address {
 		line-height: 1.4;
 		font-style: normal;
-	}
-}
-
-.speakers {
-	padding: 0;
-	li {
-		list-style: none;
-		border-bottom: 1px dotted $blue;
-	}
-	figure, img {
-		float: left;
-	}
-	img {
-		border-radius: 50%;
-		border:3px solid $light;
-		max-width: 170px;
-
 	}
 }
 
