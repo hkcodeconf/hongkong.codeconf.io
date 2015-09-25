@@ -14,6 +14,12 @@
   github: donal
   twitter: nashape
 
+- slug: elaine-chan
+  name: Elaine Chan
+  title: "Scrapying, from basics to scaling up"
+  image_url: "/images/2015/elaine-chan.jpg"
+  bio: "Java and Javascript dev in a bank. (Yes I know they are different!)  Always curious and always procrastinating.  Big fan of civic hacking and body hacking."
+
 - slug: godfrey-chan
   name: Godfrey Chan
   title: "Stories from afar: Hong Konger in North America"
@@ -29,6 +35,14 @@
   bio: "Gram is a hacker enthusiast, developer and amateur MMA fighter. He believes that knowledge is meant to be shared to improve the generations to come. After moving to Hong Kong, he has become a driving force in the startup community mentoring, helping and building the next generation of platforms, services and apps."
   twitter: dentedio
   github: dented
+
+- slug: holger-bartel
+  name: Holger Bartel
+  title: "TBD"
+  image_url: "/images/2015/holger-bartel.jpg"
+  bio: "Holger Bartel is a digital strategist & front end developer. He now runs the web design consultancy fooBartel Ltd. He also founded and runs the Open Device Lab HK, works as a part-time lecturer at The Hong Kong Polytechnic University's school of design, mentors for startups and loves speaking at conferences to share his thoughts."
+  twitter: foobartel
+  github: foobartel
 
 - slug: jack-chen
   name: Jack Chen
@@ -69,3 +83,11 @@
   bio: "Tony Wong, co-founder and CTO of Shopline, is an entrepreneur and software engineer that has extensive experience in Web and Mobile Apps development. He is passionate about startups and is experienced in startup dynamics as a Founding Member of Viss, a mobile app focusing on fashion in Asia. Tony was an Overall Winner at Startup Weekend HK 2013 and he also holds a Master of Science from HKUST Business School. Prior to moving to Hong Kong, Tony has lived and worked in different parts of the world, including Latin America, Canada and other parts of South East Asia, giving him unique insight into many emerging markets around the globe."
   twitter: tonywongk
   github: tonywongk
+
+- slug: vincent-lau
+  name: Vincent Lau
+  title: "Scrapying, from basics to scaling up"
+  image_url: "/images/2015/vincent-lau.jpg"
+  bio: "Javascript/Python/Scala guy. Work at a local start-up where my job is translating code into a world-class online translation platform. Love UX, Architectures, Data Science, Start-ups. Co-founded Code for Hong Kong, the civic hacking community."
+  twitter: vincent_lcy
+  github: vincentlaucy
