@@ -187,6 +187,15 @@ section {
 	}
 }
 
+@include media(medium) {
+	.speaker {
+		display: inline-block;
+		vertical-align: top;
+		margin-left: -5px;
+		width: 50%;
+	}
+}
+
 #about {
 	background: lighten($blue, 10%);
 	color: $light;
