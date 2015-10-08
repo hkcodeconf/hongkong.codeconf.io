@@ -1,0 +1,37 @@
+<section id="schedule">
+	<div class="container schedule">
+		<a href="#schedule" class="section-self-link">
+			<h2>The Schedule</h2>
+		</a>
+
+		<table border="0">
+			<tbody>
+
+				{% for section in site.data.schedule %}
+				<tr>
+					<td colspan="2" class="center">{{ section.section }}</td>
+				</tr>
+				{% for slot in section.slots %}
+				<tr>
+					<td>{{ slot.time }}</td>
+					<td>
+						{% if slot.type == 'talk' %}
+							{% for speaker in slot.speakers %}
+							  <a href="#{{ speaker.slug }}">{{ speaker.name }}</a>
+								{% if forloop.rindex == 2 %}&amp;{% endif %}
+							{% endfor %}
+						- "{{ slot.title }}"
+						<!-- <p class="talk-description">
+							{{ slot.description }}
+						</p> -->
+						{% else %}
+						  {{ slot.title }}
+						{% endif %}
+					</td>
+				</tr>
+        {% endfor %}
+				{% endfor %}
+			</tbody>
+		</table>
+	</div>
+</section>

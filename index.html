@@ -146,6 +146,7 @@ layout: default
     	</div>
     </section>
 
+    {% include schedule-format.html %}
 
     <section class="bg bg3">
     </section>
@@ -190,7 +191,7 @@ layout: default
   <script>
 
   toggleItem = function(){
-      var el = document.getElementsByTagName('blink')[0];
+      var el = document.getElementsByClassName('blink')[0];
       if (el.style.display === 'block') {
           el.style.display = 'none';
       } else {
