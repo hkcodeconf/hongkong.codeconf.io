@@ -1,3 +1,6 @@
+---
+---
+
 // media query mixin
 @mixin media($media-query){
 	@if $media-query == small{
@@ -337,10 +340,13 @@ td {
 }
 
 .blink {
-  -webkit-animation: blink 1s steps(5, start) infinite;
-  -moz-animation: blink 1s steps(5, start) infinite;
-  -o-animation: blink 1s steps(5, start) infinite;
   animation: blink 1s steps(5, start) infinite;
+}
+
+@keyframes blink {
+	to: {
+		visibility: hidden;
+	}
 }
 
 section {
