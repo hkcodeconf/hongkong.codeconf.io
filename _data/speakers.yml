@@ -52,10 +52,10 @@
   github: aquajach
   twitter: aquajach
 
-- slug: jonas-karlsson
+- slug: jonas-s-karlsson
   name: Jonas S Karlsson
   title: "Do I need Scalability?"
-  image_url: "/images/2015/jonas-karlsson.jpg"
+  image_url: "/images/2015/jonas-s-karlsson.jpg"
   bio: "Jonas S Karlsson, PhD, travelling Zen Hacker, likes do build new programming languages like pandalang.org and database kernels. Worked at Google building Google Megastore that underlies and scales Google App Engine consulting with numerous projects on how to scale to millions of users."
   twitter: jonasskarlsson
   github: yesco
@@ -67,6 +67,14 @@
   bio: "Mart is the director of Droste, a Hong Kong-based Data Science Consultancy, a Data Science Instructor at General Assembly, Co-founder of Open Data Hong Kong, and the convener for Symbol & Key."
   twitter: tijptjik
   github: tijptjik
+
+- slug: matthew-rudy-jacobs
+  name: Matthew Rudy Jacobs
+  title: "Death by Bad API Design"
+  image_url: "/images/2015/matthew-rudy-jacobs.jpg"
+  bio: "A founder of Codeaholics, and Organiser of Hong Kong Code Conf, Matthew arrived in Hong Kong in 2010, and has been fighting to build a better developer community ever since. He works at GoGoVan and hopes that maybe you want to work there too ;)."
+  twitter: matthewrudy
+  github: matthewrudy
 
 - slug: pedro-pimentel
   name: Pedro Pimentel
