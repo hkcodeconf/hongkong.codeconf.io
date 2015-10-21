@@ -14,3 +14,11 @@ url: "http://hongkong.codeconf.io"
 markdown: kramdown
 sass:
   style: compressed
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  profile: false
+  ignore:
+    envs: [local]
