@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible
+
+# TEAM
+
+    Matthew Rudy Jacobs -- @matthewrudy
+    Ben Crox -- @bencrox
+    Charis Rooda -- @charisrooda
+    Eddie Lau -- @3dd13
+    Jimmy Chu --
+    Steve Holmes -- @steholmes
+
+# THANKS
+
+    Codeaholics -- support
+    Hong Kong Science Park -- venue

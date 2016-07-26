@@ -1,0 +1,48 @@
+H               C               H O N G K O N G             H               C              H O N G K O N G
+O               O              O               N            O O             O             O
+N               D             N                 O           N   N           D             N
+G               E             G                 K           G     G         E             G
+ C O D E C O N F                                                                                   C O D E
+K               C             E                 C           K         C     C             E              C
+O               O             D                 O           O           O   O             D              O
+N               N              O               N            N             N N             O              N
+G               F               C O D E C O N F             G               F              C O D E C O N F
+
+
+
+
+H               F               H O N G K O N G             H               C              H O N G K O N G
+O             N                O               N            O O             O             O
+N           O                 N                 O           N   N           D             N
+G         C                   G                 K           G     G         E             G
+ C O D E                                                                                           C O D E
+K         C                   E                 C           K         C     C             E              C
+O           O                 D                 O           O           O   O             D              O
+N             N                O               N            N             N N             O              N
+G               F               C O D E C O N F             G               F              C O D E C O N F
+
+
+
+
+   H O N G K O N                H O N G K O N G             H O N G  K O N                 H O N G  K O N G
+  O             G              O               N            O              G              O
+ N                            N                 O           N               2             N
+G                             G                 K           G                0            G
+                                                                                           C O D E C O N F
+E                             E                 C           E                1            E              
+ D                            D                 O           D               5             D
+  O             F              O               N            O              F              O
+   C O D E C O N                C O D E C O N F             C O D E  C O N                 C O D E C O N F
+
+
+
+
+   H O N G K O N                H O N G K O N G             H               C             H O N G  K O N G
+  O             G              O               N            O O             O             O
+ N                            N                 O           N   N           D             N
+G                             G                 K           G     G         E             G
+                                                                                           C O D E C O N F
+E                             E                 C           K         C     C             K
+ D                            D                 O           O           O   O             O
+  O             F              O               N            N             N N             N
+   C O D E C O N                C O D E C O N F             G               F             G

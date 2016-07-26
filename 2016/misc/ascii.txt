@@ -1,0 +1,98 @@
+   H O N G K O N
+  O            G
+ N
+G
+
+E
+ D
+  O            F
+   C O D E C O N
+
+H O N G  K O N
+O              G
+N               2
+G                0
+
+E                1
+D               5
+O              F
+C O D E  C O N
+
+H O N G  K O N G
+O
+N
+G
+ C O D E C O N F
+K
+O
+N
+G N O K  G N O H
+
+H O N G  K O N G
+O
+N
+G
+ C O D E C O N F
+K
+O
+N
+G
+
+ H O N G K O N G
+O
+N
+G
+         C O D E
+E              C
+D              O
+O              N
+ C O D E C O N F
+
+H               C
+O               O
+N               D
+G               E
+ C O D E C O N F
+K               C
+O               O
+N               N
+G               F
+
+H               F
+O             N
+N           O
+G         C
+ C O D E
+K         C
+O           O
+N             N
+G               F
+
+H               C
+O O             O
+N   N           D
+G     G         E
+
+K         K     C
+O           O   O
+N             N N
+G               F
+
+  H O N G K O N G
+ O               N
+N                 O
+G                 K
+
+E                 C
+D                 O
+ O               N
+  C O D E C O N F
+
+C
+E
+F
+G
+H
+K
+N
+O
