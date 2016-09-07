@@ -17,31 +17,93 @@ layout: default
   </head>
 
   <body>
-    <header id="hero" class="section-blue section-big">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h1>
-              <a href="http://hongkong.codeconf.io">
-                Hong Kong<br>
-                Code Conf
-              </a>
-            </h1>
+    <header id="hero">
+      <div class="wrapper">
+        <h1>
+          <img src="/images/2016/lion-logo.png" width=183 height=179 style="display: inline-block">
+          <a href="http://hongkong.codeconf.io" style="display: inline-block">
+            Hong Kong<br>
+            Code Conf
+          </a>
+        </h1>
+
+        <h2 class="header-date">&lbrace;&lbrace; October 15th 2016 &rbrace;&rbrace;</h2>
+
+        <div id="countdown-timer" class="countdown">
+          <div class="countdown-block">
+            <span class="countdown-counter countdown-days">13</span>
+            <div class="countdown-label">Days</div>
           </div>
-
+          <div class="countdown-block">
+            <span class="countdown-counter countdown-hours">23</span>
+            <div class="countdown-label">Hours</div>
+          </div>
+          <div class="countdown-block">
+            <span class="countdown-counter countdown-minutes">12</span>
+            <div class="countdown-label">Minutes</div>
+          </div>
+          <div class="countdown-block">
+            <span class="countdown-counter countdown-seconds">155</span>
+            <div class="countdown-label">Seconds</div>
+          </div>
         </div>
-        <div class="heading-smaller">
-          *the* hong kong programming conference
-        </div>
-        <h3>organised by <a href="http://codeaholics.io/">codeaholics</a></h3>
-        <a href="http://hong-kong-code-conf-2015.eventbrite.hk" class="btn"><strike>Get your tickets now!</strike></a>
 
-        <a class="btn" href="#pay-irl" onclick="alert('I\'m talking about in real life, duh. You can\'t just click a button to buy tickets on the door.')">
-          Tickets available on the door!
-        </a>
+        <p>
+          Hong Kong Code Conference will be held on Saturday 15th October 2016.
+          It's a programming conference aimed at all programmers in Hong Kong.
+          We want to share our skills and opinions.
+          We want to inspire each other with our passion.
+          We want to build a closer, stronger community.
+        </p>
+
+        <p>
+          we <span class="heart blink">&#10084;</span> hk coders
+        </p>
+        <script>
+          function getTimeRemaining(endtime) {
+            var t = Date.parse(endtime) - Date.parse(new Date());
+            var seconds = Math.floor((t / 1000) % 60);
+            var minutes = Math.floor((t / 1000 / 60) % 60);
+            var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+            var days = Math.floor(t / (1000 * 60 * 60 * 24));
+            return {
+              'total': t,
+              'days': days,
+              'hours': hours,
+              'minutes': minutes,
+              'seconds': seconds
+            };
+          }
+
+          function initializeClock(id, endtime) {
+            var clock = document.getElementById(id);
+            var daysSpan = clock.querySelector('.countdown-days');
+            var hoursSpan = clock.querySelector('.countdown-hours');
+            var minutesSpan = clock.querySelector('.countdown-minutes');
+            var secondsSpan = clock.querySelector('.countdown-seconds');
+
+            function updateClock() {
+              var t = getTimeRemaining(endtime);
+
+              daysSpan.innerHTML = t.days;
+              hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+              minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+              secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+              if (t.total <= 0) {
+                clearInterval(timeinterval);
+              }
+            }
+
+            updateClock();
+            var timeinterval = setInterval(updateClock, 1000);
+          }
+
+          var deadline = new Date(2016, 10, 10);
+          initializeClock('countdown-timer', deadline);
+        </script>
       </div>
     </header>
-
 
     <section id="marquee">
       <div class="container">
