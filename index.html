@@ -83,7 +83,7 @@ layout: default
     <section class="bg bg2">
     </section>
 
-    <!-- <section id="speakers">
+    <section id="speakers">
       <div class="container">
         <a href="#speakers" class="section-self-link">
           <h2>The Speakers</h2>
@@ -105,21 +105,23 @@ layout: default
                   {{ speaker.bio }}
                 </p>
 
-                {% if speaker.github %}
-                  Github: <a href="https://github.com/{{ speaker.github }}" class="github">@{{ speaker.github }}</a>
-                  {% if speaker.twitter %}<br />{% endif %}
-                {% endif %}
+                <p>
+                  {% if speaker.github %}
+                    Github: <a href="https://github.com/{{ speaker.github }}" class="github">@{{ speaker.github }}</a>
+                    {% if speaker.twitter %}<br />{% endif %}
+                  {% endif %}
 
-                {% if speaker.twitter %}
-                  Twitter: <a href="https://twitter.com/{{ speaker.twitter }}" class="twitter">@{{ speaker.twitter }}</a>
-                {% endif %}
+                  {% if speaker.twitter %}
+                    Twitter: <a href="https://twitter.com/{{ speaker.twitter }}" class="twitter">@{{ speaker.twitter }}</a>
+                  {% endif %}
+                </p>
               </div>
             </div>
           </li>
           {% endfor %}
         </ul>
       </div>
-    </section> -->
+    </section>
 
     <!-- {% include schedule-format.html %} -->
 
