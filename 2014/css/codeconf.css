@@ -1,0 +1,157 @@
+@font-face {
+  font-family: 'DOS';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/Fixedsys500c.eot');
+  src: local('☺'), url('fonts/Fixedsys500c.woff') format('woff'), url('fonts/Fixedsys500c.ttf') format('truetype'), url('fonts/Fixedsys500c.svg') format('svg');
+}
+
+body {
+  font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-size: 28px;
+}
+
+h1, h2, h3, h4 {
+  font-size: 48px;
+}
+
+@media (min-width:720px) {
+  h1, h2, h3, h4 {
+    font-size: 64px;
+  }
+}
+
+.heading-smaller {
+  font-size: 32px;
+  color: #ccc;
+}
+
+ul {
+  list-style-type: square;
+}
+
+section, header, footer {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: white;
+  color: black;
+}
+
+section a {
+  color: #39A8DF; /* blue */
+}
+
+.section-self-link {
+  color: inherit;
+}
+
+.section-no-bottom {
+  padding-bottom: 0;
+}
+
+body, .section-blue {
+  background-color: #39A8DF; /* blue */
+  color: white;
+}
+
+.section-big {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.section-blue a {
+  color: white;
+}
+
+.heart {
+  color: #e35d5d; /* red */
+}
+
+/* sponsors */
+
+.sponsor {
+  margin-bottom: 20px;
+}
+
+.sponsor figure img {
+  display: block;
+  width: 250px;
+  height: 150px;
+}
+
+/* speakers */
+
+.speaker {
+  margin-bottom: 20px;
+}
+
+.speaker figure img {
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+
+/* schedule */
+.schedule table {
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+.schedule table .center {
+  text-align: center;
+}
+
+.schedule table thead th {
+  text-align: center;
+}
+
+@media (min-width:720px) {
+
+  .speaker, .speaker-body {
+    overflow: hidden;
+    zoom: 1;
+  }
+
+  .speaker figure {
+    float: left;
+    margin-right: 20px;
+  }
+
+  .speaker-body h3 {
+    margin-top: 0;
+  }
+}
+
+.speaker-body {
+  font-size: 24px;
+}
+
+.speaker-body h3 {
+  font-size: 36px;
+}
+
+/* footer */
+
+footer h2 {
+  font-size: 28px;
+}
+
+/* http://stackoverflow.com/a/17203597 */
+.blink {
+  -webkit-animation: blink 1s steps(5, start) infinite;
+  -moz-animation:    blink 1s steps(5, start) infinite;
+  -o-animation:      blink 1s steps(5, start) infinite;
+  animation:         blink 1s steps(5, start) infinite;
+}
+
+@-webkit-keyframes "blink" {
+  to { visibility: hidden; }
+}
+@-moz-keyframes blink {
+  to { visibility: hidden; }
+}
+@-o-keyframes blink {
+  to { visibility: hidden; }
+}
+@keyframes blink {
+  to { visibility: hidden; }
+}
