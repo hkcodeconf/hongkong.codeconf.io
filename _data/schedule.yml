@@ -8,41 +8,42 @@
 
 - section: Session 1
   slots:
-    - time: "10:30 - 12:00"
-      title: "Talks"
-    # - time: "10:15"
-    #   title: "Death by Bad API Design"
-    #   type: talk
-    #   speakers:
-    #     - name: "Matthew Rudy Jacobs"
-    #       slug: "matthew-rudy-jacobs"
-    #
-    # - time: "10:45"
-    #   title: "The Path to Continuous Delivery"
-    #   type: talk
-    #   speakers:
-    #     - name: "Pedro Pimentel"
-    #       slug: "pedro-pimentel"
-    #
-    # - time: "11:15"
-    #   title: "Scrapying and thereafter"
-    #   type: talk
-    #   speakers:
-    #     - name: "Elaine Chan"
-    #       slug: "elaine-chan"
-    #     - name: "Vincent Lau"
-    #       slug: "vincent-lau"
-    #
-    # - time: "11:45"
-    #   title: "Stories from Afar: Hong Konger in North America"
-    #   type: talk
-    #   speakers:
-    #     - name: "Godfrey Chan"
-    #       slug: "godfrey-chan"
+    - time: "10:15"
+      title: "In Defence of Boilerplate Code"
+      type: talk
+      speakers:
+        - name: "Andrew Medworth"
+          slug: "andrew-medworth"
+      description: "Many languages, libraries and frameworks boast of their ability to eliminate boilerplate code. But does boilerplate code always deserve to die? This talk will argue that sometimes the cure is worse than the disease. It will draw examples primarily from the Java ecosystem, but will aim to offer techniques for designing and selecting abstractions which will be useful to all software engineers."
+
+    - time: "10:45"
+      title: "Static code analysis in D"
+      type: talk
+      speakers:
+        - name: "Lionello Lunesu"
+          slug: "lionello-lunesu"
+      description: "D's compiler already has some advanced code analysis tools. For example, it currently uses Value Range Propagation (VRP) for implicit casting between integers of different sizes, but that's only one of the many things VRP is useful for. VRP can be extended to include code optimization, branch prediction, static code analysis, and proof code correctness."
+
+    - time: "11:15"
+      title: "Programming Pebble"
+      type: talk
+      speakers:
+        - name: "Richard Cohen"
+          slug: "richard-cohen"
+      description: "Last year, after I ranted about swartwatches being useless, a bunch of people told me to look at Pebble - and they were right!
+This year, Pebble is releasing new devices, and a new OS and SDK revision, including the ability to write onboard 'native' apps in JavaScript. Let's see what it can do..."
+
+    - time: "11:45"
+      title: "Collaborative Learning"
+      type: talk
+      speakers:
+        - name: "Ricky Ng-Adam"
+          slug: "ricky-ng-adam"
+      description: "Demand for talented developers far exceeds resources available. One key to grow new talent is to help individuals with aptitudes and potential for software development to try out this new career path. Codeschools have proven faster and less expensive than universities but still demand a significant investment and have fixed learning cycles. Parallel to the rise of co-working and thanks to the availability of online content such as FreeCodeCamp, we propose a project-focused curriculum in a community with mentors where peers help each other learn new concepts and find work in their new chosen profession."
 
 - section: Lunch
   slots:
-    - time: "12:00"
+    - time: "12:15"
       title: "Lunch"
 
 - section: Session 2

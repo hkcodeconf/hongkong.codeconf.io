@@ -21,9 +21,9 @@
 								{% if forloop.rindex == 2 %}&amp;{% endif %}
 							{% endfor %}
 						- "{{ slot.title }}"
-						<!-- <p class="talk-description">
-							{{ slot.description }}
-						</p> -->
+						  <!-- <details class="talk-description">
+							  {{ slot.description }}
+					  	</details> -->
 						{% else %}
 						  {{ slot.title }}
 						{% endif %}

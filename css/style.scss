@@ -179,6 +179,7 @@ section {
 		margin: 0 auto;
 	}
 	h3 {
+		color: white;
 		text-align: center;
 		font-weight: 400;
 		margin-top: 0;
@@ -202,6 +203,9 @@ section {
 	}
 	.section-self-link + p {
 		margin-top: 10px;
+	}
+	.speaker-body p {
+		margin-bottom: 10px;
 	}
 }
 
