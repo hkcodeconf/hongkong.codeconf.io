@@ -19,12 +19,14 @@
 
 $blue: #2A95DA;
 $blue-light: lighten($blue,20%);
-$red: #e35d5d;
+// $red: #e35d5d;
+$red: #CA2321;
 $purple: #7C628E;
 $light: #FFF;
 $dark: #000;
 $grey: #aaa;
 $lightgrey: #E3E3E3;
+$flamingo: #F7D1E3;
 
 
 html, body {
@@ -34,7 +36,7 @@ html, body {
 }
 
 body {
-	font-family: Lato,Helvetica, Arial, sans-serif;
+	font-family: 'Droid Serif',Helvetica, Arial, sans-serif;
 	font-weight: 300;
 	text-align: center;
 	font-size: 110%;
@@ -43,19 +45,22 @@ body {
 header {
 	padding: 10vh;
 	text-align: center;
-	h1 a {
-		color: $blue;
+
+	p {
+		margin: 5px auto 20px;
+		font-size: 16px;
 	}
-	h2 {
-		margin-top: 4vh;
-	}
-	h3 {
-		margin-top: 0.5vh;
-		color: $grey;
-	}
-	a {
-		color: inherit;
-	}
+}
+
+h2.small {
+	font-size: 24px;
+	margin-top:-10px;
+}
+
+
+h3.small {
+	font-size: 24px;
+	margin-top:-20px;
 }
 
 a {
@@ -63,7 +68,7 @@ a {
 	text-decoration: none;
 	padding: 1px 3px;
 	&:hover, &:focus, &:active {
-		background: $lightgrey;
+		background: $flamingo;
 		color: $red;
 	}
 }
@@ -75,6 +80,7 @@ a {
 	text-decoration: none;
 	display: inline-block;
 	margin-top: 3vh;
+	cursor: pointer;
 	&:hover, &:focus, &:active {
 		background: $blue;
 		color: $light;
@@ -87,7 +93,8 @@ a {
 
 p {
 	line-height: 1.5;
-	max-width: 45em;
+	max-width: 35em;
+	margin: 0 auto;
 }
 
 li {
@@ -98,7 +105,7 @@ li {
 	list-style: none;
 }
 
-h1, h2 {
+h1, h2, h3 {
 	font-weight: 300;
 	font-family: 'fixedsys';
 	text-transform: uppercase;
@@ -112,19 +119,19 @@ h1, h2 {
 
 %header {
 	color: $dark;
-	text-shadow: -2px -2px 0px $red;
+	text-shadow: -4px -4px 0px $red;
 	&:hover, &:active, &:focus {
 		color: $dark;
-		text-shadow: -2px -2px 0px $red;
+		text-shadow: -4px -4px 0px $red;
 	}
 }
 
 %header2 {
 	color: $dark;
-	text-shadow: -2px -2px 0px $blue;
+	text-shadow: -4px -4px 0px $blue;
 	&:hover, &:active, &:focus {
 		color: $dark;
-		text-shadow: -2px -2px 0px $blue;
+		text-shadow: -4px -4px 0px $blue;
 	}
 }
 
@@ -141,7 +148,7 @@ h1, h2 {
 }
 
 section {
-	h1, h2, h3 {
+	h1, h2{
 		@extend %header;
 	}
 }
@@ -190,15 +197,6 @@ section {
 	}
 }
 
-@include media(medium) {
-	.speaker {
-		display: inline-block;
-		vertical-align: top;
-		margin-left: -5px;
-		width: 50%;
-	}
-}
-
 #about {
 	background: lighten($blue, 10%);
 	color: $light;
@@ -231,47 +229,54 @@ section {
 
 .bg1 {
 	background:
-	url(../images/background.jpg),
-	linear-gradient($blue 0%, $red 100%),
-	linear-gradient(to right, $blue 0%, $red 100%);
+	url(/images/2016/bg1.jpg);
+	// url(/images/pattern.png),
+	// linear-gradient($blue 0%, $red 100%),
+	// linear-gradient(to right, $blue 0%, $red 100%);
   background-size: cover;
 	background-position: center;
 }
 
 .bg2 {
 	background:
-	url(../images/background2.jpg),
-	linear-gradient($red 0%, $blue 100%),
-	linear-gradient(to right, $blue 0%, $red 100%);
+	url(/images/2016/bg2.jpg);
+	// url(../images/pattern.png),
+	// linear-gradient($red 0%, $blue 100%),
+	// linear-gradient(to right, $blue 0%, $red 100%);
   background-size: cover;
-	background-position: center;
+	background-position: bottom center;
 }
 
 .bg3 {
 	background:
-	url(../images/background3.jpg),
-	linear-gradient($blue 0%, $red 100%),
-	linear-gradient(to right, $red 100%, $blue 0%);
+	url(/images/2016/bg3.jpg);
+	// url(../images/pattern.png),
+	// linear-gradient($blue 0%, $red 100%),
+	// linear-gradient(to right, $red 100%, $blue 0%);
   background-size: cover;
-	background-position: center;
+	background-position: top center;
 }
 
 %small {
-	font-size: 36px;
+	font-size: 20px;
+	font-weight: normal;
 	@include media(medium) {
-		font-size: 32px;
+		font-size: 24px;
 	}
 }
 
 %medium {
-	font-size: 46px;
+	font-size: 55px;
 	@include media(medium) {
-		font-size:60px;
+		font-size:70px;
 	}
 }
 
 %large {
-	font-size: 52px;
+	font-size: 40px;
+	@include media(small) {
+		font-size: 60px;
+	}
 	@include media(medium) {
 		font-size: 70px;
 	}
@@ -281,11 +286,14 @@ h1 {
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
 	font-weight: normal;
+	margin: 0;
 	@extend %large;
 	@include media(small) {
 		padding: 0 10px 10px;
-		padding: 0 1vh 1vh;
-		margin-top: 0
+		padding: 0 1vh 0.2vh;
+	}
+	a {
+		display: block;
 	}
 }
 
@@ -305,8 +313,11 @@ h3 {
 marquee{
 	@extend %small;
 	font-family: 'fixedsys';
-	margin: 0;
+	margin: 4px 0 0 0;
 	text-transform: uppercase;
+	span {
+		margin-right: 50px;
+	}
 }
 
 #marquee {
@@ -340,6 +351,9 @@ td {
 }
 
 .blink {
+  -webkit-animation: blink 1s steps(5, start) infinite;
+  -moz-animation: blink 1s steps(5, start) infinite;
+  -o-animation: blink 1s steps(5, start) infinite;
   animation: blink 1s steps(5, start) infinite;
 }
 
@@ -401,11 +415,8 @@ frame {
 	li {
 	display: inline-block;
 	}
-	ul {
-		padding-left: 0;
-	}
 	img {
-		height: 130px;
+		width: 200px;
 	}
 	figure {
 		margin: 10px 20px 0;
@@ -423,6 +434,10 @@ frame {
 	margin-top: 2vh;
 }
 
+.mt6 {
+	margin-top: 6vh;
+}
+
 .mb1 {
 	margin-bottom: 1vh;
 }
@@ -433,7 +448,7 @@ frame {
 
 #organisers {
 	h2 {
-		font-size: 20px;
+		font-size: 16px;
 		color: $grey;
 		margin-bottom: 10px;
 	}

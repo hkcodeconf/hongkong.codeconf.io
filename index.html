@@ -13,7 +13,8 @@ layout: default
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
 
     <link rel="stylesheet" href="/css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
   </head>
 
   <body>
@@ -21,6 +22,7 @@ layout: default
       <div class="container">
         <div class="row">
           <div class="col-md-12">
+            <img width="200" height="200" src="/images/2016/lion-logo.png" alt="Hong Kong Code Conf 2016 logo">
             <h1>
               <a href="http://hongkong.codeconf.io">
                 Hong Kong<br>
@@ -28,17 +30,12 @@ layout: default
               </a>
             </h1>
           </div>
-
         </div>
         <div class="heading-smaller">
           *the* hong kong programming conference
         </div>
         <h3>organised by <a href="http://codeaholics.io/">codeaholics</a></h3>
-        <a href="http://hong-kong-code-conf-2015.eventbrite.hk" class="btn"><strike>Get your tickets now!</strike></a>
-
-        <a class="btn" href="#pay-irl" onclick="alert('I\'m talking about in real life, duh. You can\'t just click a button to buy tickets on the door.')">
-          Tickets available on the door!
-        </a>
+        <a href="http://hongkongcodeconf2016.eventbrite.hk" class="btn">Get your tickets now!</a>
       </div>
     </header>
 
@@ -46,15 +43,17 @@ layout: default
     <section id="marquee">
       <div class="container">
         <marquee>
-          Saturday October 24th 2015 @
-          <a href="http://www.hkstp.org/en-US/Facilities/Hong-Kong-Science-Park/Transportation.aspx">
-            Hong Kong Science Park
+          Saturday October 15th 2016 @
+          <a href="#">
+            Credit Suisse - 88TH FLOOR, ICC, Kowloon Station
           </a>
         </marquee>
       </div>
     </section>
+
     <section class="bg bg1">
     </section>
+
     <section id="about">
       <div class="container">
         <a href="#about" class="section-self-link">
@@ -73,19 +72,18 @@ layout: default
         <a href="#tickets" class="section-self-link">
           <h2>The Tickets</h2>
         </a>
-
-        <ul class="unstyled">
-          <li>200 HKD - early birds get a free t-shirt</li>
-          <li>Tickets go on sale on Tuesday 22th September @ 6pm HKT</li>
-        </ul>
-
-        <a href="http://hong-kong-code-conf-2015.eventbrite.hk" class="btn mt1 mb2">Get your tickets now!</a>
+        <h3 class="small">
+          300 HKD including lunch<br />
+          Early Birds get a free t-shirt
+        </h3>
+        <a href="http://hongkongcodeconf2016.eventbrite.hk" class="btn mt6 mb2">Get your tickets now!</a>
       </div>
     </section>
+
     <section class="bg bg2">
     </section>
 
-    <section id="speakers">
+    <!-- <section id="speakers">
       <div class="container">
         <a href="#speakers" class="section-self-link">
           <h2>The Speakers</h2>
@@ -121,9 +119,9 @@ layout: default
           {% endfor %}
         </ul>
       </div>
-    </section>
+    </section> -->
 
-    {% include schedule-format.html %}
+    <!-- {% include schedule-format.html %} -->
 
     <section id="sponsors">
     	<div class="container">
@@ -135,18 +133,20 @@ layout: default
     			<li>
     				<div class="sponsor">
     					<figure>
-    						<img src="images/hkstp.png" alt="Hong Kong Science Park logo">
+    						<img src="images/2016/credit-suisse.svg" alt="Credit Suisse">
     					</figure>
-    					<a href="http://http://www.hkstp.org/">Hong Kong Science Park</a>
+    					<a href="https://www.credit-suisse.com/hk/en/your-careers/recruitment-technology-microsite.html">
+                Credit Suisse
+              </a>
     				</div>
     			</li>
 
     			<li>
     				<div class="sponsor">
     					<figure>
-    						<img src="images/startupcommune.png" alt="Startup Commune logo">
+    						<img src="images/2016/gogovan.png" alt="GoGoVan">
     					</figure>
-    					<a href="http://startupcommune.org/">Startup Commune</a>
+    					<a href="http://gogovan.theresumator.com/">GoGoVan</a>
     				</div>
     			</li>
     		</ul>
@@ -163,27 +163,30 @@ layout: default
         </a>
 
         <address>
-          <a href="http://www.hkstp.org">Hong Kong Science Park</a>, No. 2 Science Park West Avenue,<br />
-            Shatin, New Territories.<br />
+          Credit Suisse, <br />
+          ICC, Kowloon.<br />
             Hong Kong
         </address>
       </div>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1844.0337897798995!2d114.21116050000002!3d22.426482099999987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340408976b5dfa1b%3A0x9f63b20d760dae34!2sCharles+K.+Kao+Auditorium%2C+Science+Park+E+Ave%2C+Science+Park!5e0!3m2!1sen!2shk!4v1442842767407" width="100%" height="500" frameborder="0" style="border:0"></iframe>
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7382.658685929874!2d114.15585323224612!3d22.303380885321918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400911539bded%3A0x2663833d5bd15c05!2sInternational+Commerce+Centre%2C+1%E8%99%9F+Austin+Rd+W%2C+Kowloon+City!5e0!3m2!1snl!2shk!4v1468245279103" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
     </section>
 
     <footer id="organisers">
       <div class="container">
-        <h2>Supported by <a href="http://codeaholics.io">Codeaholics</a><br />
+        <h2>Supported by <a href="http://codeaholics.hk/">codeaholics</a><br />
           Organised by
-          <a href="http://matthewrudy.com">Matthew Rudy Jacobs</a>,
-          <a href="https://github.com/dented">Gram Milosevic</a>,
+          <a href="http://matthewrudy.com">Matthew Rudy</a>,
+          <a href="https://github.com/zukunftsalick">Pedro Pimentel</a>,
           <a href="https://imakewebsites.hk">Charis Rooda</a>
+          <a href="https://github.com/dented">Gram Milosevic</a>,
         </h2>
         <p>
           Special thanks to
-          <a href="https://about.me/vhew">Vaughn Hew</a>
-          for the photos from
-          <a href="http://vhew.smugmug.com/keyword/hkcodeconf">Hong Kong Code Conf 2014</a>.
+          <a href="http://cargocollective.com/Veronicayu">Veronica Yu</a>
+          for designing the lion logo
+          and the photos from
+          Hong Kong Code Conf 2015
         </p>
       </div>
     </footer>

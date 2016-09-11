@@ -8,111 +8,116 @@
 
 - section: Session 1
   slots:
-
-    - time: "10:15"
-      title: "Death by Bad API Design"
-      type: talk
-      speakers:
-        - name: "Matthew Rudy Jacobs"
-          slug: "matthew-rudy-jacobs"
-
-    - time: "10:45"
-      title: "The Path to Continuous Delivery"
-      type: talk
-      speakers:
-        - name: "Pedro Pimentel"
-          slug: "pedro-pimentel"
-
-    - time: "11:15"
-      title: "Scrapying and thereafter"
-      type: talk
-      speakers:
-        - name: "Elaine Chan"
-          slug: "elaine-chan"
-        - name: "Vincent Lau"
-          slug: "vincent-lau"
-
-    - time: "11:45"
-      title: "Stories from Afar: Hong Konger in North America"
-      type: talk
-      speakers:
-        - name: "Godfrey Chan"
-          slug: "godfrey-chan"
+    - time: "10:30 - 12:00"
+      title: "Talks"
+    # - time: "10:15"
+    #   title: "Death by Bad API Design"
+    #   type: talk
+    #   speakers:
+    #     - name: "Matthew Rudy Jacobs"
+    #       slug: "matthew-rudy-jacobs"
+    #
+    # - time: "10:45"
+    #   title: "The Path to Continuous Delivery"
+    #   type: talk
+    #   speakers:
+    #     - name: "Pedro Pimentel"
+    #       slug: "pedro-pimentel"
+    #
+    # - time: "11:15"
+    #   title: "Scrapying and thereafter"
+    #   type: talk
+    #   speakers:
+    #     - name: "Elaine Chan"
+    #       slug: "elaine-chan"
+    #     - name: "Vincent Lau"
+    #       slug: "vincent-lau"
+    #
+    # - time: "11:45"
+    #   title: "Stories from Afar: Hong Konger in North America"
+    #   type: talk
+    #   speakers:
+    #     - name: "Godfrey Chan"
+    #       slug: "godfrey-chan"
 
 - section: Lunch
   slots:
-    - time: "12:15"
+    - time: "12:00"
       title: "Lunch"
 
 - section: Session 2
   slots:
-    - time: "13:15"
-      title: "Your Front-end Performance Sucks"
-      type: talk
-      speakers:
-        - name: "Holger Bartel"
-          slug: "holger-bartel"
-
-    - time: "13:45"
-      title: "Decoding the Language of Cereal Box Design with Scikit-Learn"
-      type: talk
-      speakers:
-        - name: "Mart van de Ven"
-          slug: "mart-van-de-ven"
-
-    - time: "14:15"
-      title: "Swift: The End of OOP?"
-      type: talk
-      speakers:
-        - name: "Jack Chen"
-          slug: "jack-chen"
-
-    - time: "14:45"
-      title: "Scaling the team at Shopline"
-      type: talk
-      speakers:
-        - name: "Tony Wong"
-          slug: "tony-wong"
+    - time: "13:30 - 15:30"
+      title: "Talks"
+    # - time: "13:15"
+    #   title: "Your Front-end Performance Sucks"
+    #   type: talk
+    #   speakers:
+    #     - name: "Holger Bartel"
+    #       slug: "holger-bartel"
+    #
+    # - time: "13:45"
+    #   title: "Decoding the Language of Cereal Box Design with Scikit-Learn"
+    #   type: talk
+    #   speakers:
+    #     - name: "Mart van de Ven"
+    #       slug: "mart-van-de-ven"
+    #
+    # - time: "14:15"
+    #   title: "Swift: The End of OOP?"
+    #   type: talk
+    #   speakers:
+    #     - name: "Jack Chen"
+    #       slug: "jack-chen"
+    #
+    # - time: "14:45"
+    #   title: "Scaling the team at Shopline"
+    #   type: talk
+    #   speakers:
+    #     - name: "Tony Wong"
+    #       slug: "tony-wong"
 
 - section: Coffee Break
   slots:
-    - time: "15:15"
+    - time: "15:30"
       title: "Coffee Break"
 
 - section: Session 3
   slots:
-    - time: "15:45"
-      title: "Words of Support"
-      type: talk
-      speakers:
-        - name: "Donal Ellis"
-          slug: "donal-ellis"
-
-    - time: "16:15"
-      title: "Do I need Scalability?"
-      type: talk
-      speakers:
-        - name: "Jonas S Karlsson"
-          slug: "jonas-s-karlsson"
-
-    - time: "16:45"
-      title: "Hack Hong Kong"
-      type: talk
-      speakers:
-        - name: "Gram Lok"
-          slug: "gram-lok"
-
-    - time: "17:15"
-      title: "Immortal Code: Can Your Software Live Forever?"
-      type: talk
-      speakers:
-        - name: "Andrew Medworth"
-          slug: "andrew-medworth"
+    - time: "16:00 - 18:00"
+      title: "Talks"
+    # - time: "15:45"
+    #   title: "Words of Support"
+    #   type: talk
+    #   speakers:
+    #     - name: "Donal Ellis"
+    #       slug: "donal-ellis"
+    #
+    # - time: "16:15"
+    #   title: "Do I need Scalability?"
+    #   type: talk
+    #   speakers:
+    #     - name: "Jonas S Karlsson"
+    #       slug: "jonas-s-karlsson"
+    #
+    # - time: "16:45"
+    #   title: "Hack Hong Kong"
+    #   type: talk
+    #   speakers:
+    #     - name: "Gram Lok"
+    #       slug: "gram-lok"
+    #
+    # - time: "17:15"
+    #   title: "Immortal Code: Can Your Software Live Forever?"
+    #   type: talk
+    #   speakers:
+    #     - name: "Andrew Medworth"
+    #       slug: "andrew-medworth"
 
 - section: Closing & After Party
   slots:
-    - time: "17:45"
+    - time: "18:00"
       title: "Closing / Thank you"
 
-    - time: "18:00"
+    - time: "19:00"
       title: "After Party"
