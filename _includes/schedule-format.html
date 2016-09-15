@@ -16,14 +16,19 @@
 					<td>{{ slot.time }}</td>
 					<td>
 						{% if slot.type == 'talk' %}
-							{% for speaker in slot.speakers %}
-							  <a href="#{{ speaker.slug }}">{{ speaker.name }}</a>
-								{% if forloop.rindex == 2 %}&amp;{% endif %}
-							{% endfor %}
-						- "{{ slot.title }}"
-						  <!-- <details class="talk-description">
-							  {{ slot.description }}
-					  	</details> -->
+						  <div class="schedule-talk">
+								{% for speaker in slot.speakers %}
+								  <a href="#{{ speaker.slug }}">{{ speaker.name }}</a>
+									{% if forloop.rindex == 2 %}&amp;{% endif %}
+								{% endfor %}
+							- "{{ slot.title }}"
+							  <details>
+									<summary>Description</summary>
+								  <p>
+										{{ slot.description }}
+									</p>
+						  	</details>
+							</div>
 						{% else %}
 						  {{ slot.title }}
 						{% endif %}
