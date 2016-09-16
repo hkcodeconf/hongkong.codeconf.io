@@ -76,10 +76,10 @@ This year, Pebble is releasing new devices, and a new OS and SDK revision, inclu
       title: "A Day at the Races: a Data Science Extravaganza"
       type: talk
       speakers:
-        - name: "Guy Freeman"
-          slug: "guy-freeman"
         - name: "Emmanuel Prochasson"
           slug: "emmanuel-prochasson"
+        - name: "Guy Freeman"
+          slug: "guy-freeman"
       description: "After too many evenings fruitlessly fluttering away ten-dollar notes at the iconic Happy Valley Racecourse, we decided to use our Data Science skillz for the power of good: to make money betting on horse races."
 
 - section: Coffee Break
