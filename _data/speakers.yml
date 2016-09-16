@@ -36,7 +36,7 @@
 - slug: guy-freeman
   name: Guy Freeman
   image_url: "/images/2016/speakers/guy-freeman.jpg"
-  bio: "PhDs in statistics and NLP now curating and analysing Hong Kong data"
+  bio: "Guy got a PhD in Statistics in England in 2011, after which he moved to Hong Kong and subsequently practised the dark arts of statistical modelling as a university epidemiologist, as an "Analytical Engineer" at a scrappy data science startup, as an Excel monkey at a Big Four consulting firm, and latterly as a "Big Data Manager" at an insurance company. He's pretty obsessed with open data, starting accessinfo.hk, a clone of the UK's Freedom of Information website whatdotheyknow.com, and his next "job" will be to open up Hong Kong's data once and for all. He is also technically one of the founders of the Hong Kong R User Group, and has used the venerable statistical programming language almost every day for over 10 years, but he always wonders what could have been with XLispStat..."
   github: slygent
 
 - slug: jack-chen
