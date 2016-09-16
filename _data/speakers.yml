@@ -1,22 +1,39 @@
 - slug: andrew-medworth
   name: Andrew Medworth
-  title: "In Defence of Boilerplate Code"
   image_url: "/images/2016/speakers/andrew-medworth.jpg"
   bio: "I'm a British software engineer living in Hong Kong since 2010. My main interests are modern cloud infrastructure, programming languages and developer productivity tools. Outside computing, I like chess, Chinese language, philosophy, maths and music."
   twitter: medworth
   github: amdw
 
+- slug: andy-li
+  name: Andy Li
+  image_url: "/images/2016/speakers/andy-li.jpg"
+  bio: "Andy Li is a member of the Haxe Foundation. He obtained his PhD in the School of Creative Media, City University of Hong Kong. He is interested in programming language theories as well as mobile user interface, interactivity, installation art and generative graphics."
+  twitter: andy_li
+  github: andyli
+
 - slug: carla-souza
   name: Carla Souza
-  title: "How to Raise your Inner DevOps Engineers"
   image_url: "/images/2016/speakers/carla-souza.jpg"
   bio: "Founder of Puppet Brazil community, Carla Souza currently works for Facebook as a Production Engineer. She has Bachelor in Computer Science, 10+ years of experience in Unix systems administration and Software development."
   twitter: carlaas
   github: carlasouza
 
+- slug: emmanuel-prochasson
+  name: Emmanuel Prochasson
+  image_url: "/images/2016/speakers/emmanuel-prochasson.jpg"
+  bio: "Emmanuel arrived in Hong Kong in 2010, as a researcher in Natural Language Processing for HKUST. He veered path toward Software Engineer and accidentally became a Data Scientist by combining both experiences (with a pinch of product management). Today, Emmanuel is a freelance data scientist."
+  twitter: eprochasson
+  github: eprochasson
+
+- slug: guy-freeman
+  name: Guy Freeman
+  image_url: "/images/2016/speakers/guy-freeman.jpg"
+  bio: "PhDs in statistics and NLP now curating and analysing Hong Kong data"
+  github: slygent
+
 - slug: jack-chen
   name: Jack Chen
-  title: "Separating your data logic from business logic by PostgreSQL programming"
   image_url: "/images/2016/speakers/jack-chen.png"
   bio: "Jack works at Skymatters Limited as the technical director. He is keen to open-source projects and believes running a marathon and coding a project have so many in common."
   github: aquajach
@@ -24,7 +41,6 @@
 
 - slug: lionello-lunesu
   name: Lionello Lunesu
-  title: "Static code analysis in D"
   image_url: "/images/2016/speakers/lionello-lunesu.jpg"
   bio: "Lio is an engineer and community organizer with Electrical Engineering and Computer Science background and 20 years of international industry experience doing software and hardware. A VR pioneer, he built and sold VR solutions from his first startup in 1997. In 2001 his company was acquired by a multinational company for his real-time 3D stereo rendering technology. Having worked on a wide range of projects, in startups and multinationals, Lio has accrued broad expertise in areas such as virtual reality, e-commerce, cloud computing, blockchain, and IoT. "
   github: lionello
@@ -32,7 +48,6 @@
 
 - slug: richard-cohen
   name: Richard Cohen
-  title: "Programming Pebble"
   image_url: "/images/2016/speakers/richard-cohen.jpg"
   bio: "Been coding way too long...
 From Solaris and UnixWare to Android and PalmOS, with a lot of Linux and a fair amount of web stuff in the meantime."
@@ -40,8 +55,12 @@ From Solaris and UnixWare to Android and PalmOS, with a lot of Linux and a fair 
 
 - slug: ricky-ng-adam
   name: Ricky Ng-Adam
-  title: "Collaborative Learning"
   image_url: "/images/2016/speakers/ricky-ng-adam.jpg"
   bio: "Founder of Coderbunker"
   github: rngadam
   twitter: rngadam
+
+- slug: rowland-watkins
+  name: Rowland Watkins
+  image_url: "/images/2016/speakers/rowland-watkins.jpg"
+  bio: "Hacker working in financial services, currently developing trading platforms I'm Scala and Akka."
