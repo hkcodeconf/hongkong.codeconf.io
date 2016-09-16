@@ -89,35 +89,45 @@ This year, Pebble is releasing new devices, and a new OS and SDK revision, inclu
 
 - section: Session 3
   slots:
-    - time: "16:00 - 18:00"
-      title: "Talks"
-    # - time: "15:45"
-    #   title: "Words of Support"
-    #   type: talk
-    #   speakers:
-    #     - name: "Donal Ellis"
-    #       slug: "donal-ellis"
-    #
-    # - time: "16:15"
-    #   title: "Do I need Scalability?"
-    #   type: talk
-    #   speakers:
-    #     - name: "Jonas S Karlsson"
-    #       slug: "jonas-s-karlsson"
-    #
-    # - time: "16:45"
-    #   title: "Hack Hong Kong"
-    #   type: talk
-    #   speakers:
-    #     - name: "Gram Lok"
-    #       slug: "gram-lok"
-    #
-    # - time: "17:15"
-    #   title: "Immortal Code: Can Your Software Live Forever?"
-    #   type: talk
-    #   speakers:
-    #     - name: "Andrew Medworth"
-    #       slug: "andrew-medworth"
+    - time: "16:00"
+      title: "Shut up and take my money"
+      type: talk
+      speakers:
+        - name: "Thomas Pun"
+          slug: "thomas-pun"
+      description: "What happened in between visitors entering their credit card number on your site to you receiving the fund?"
+
+    - time: "16:30"
+      title: "*to be confirmed*"
+      # type: talk
+      # speakers:
+      #   - name: "Jonas S Karlsson"
+      #     slug: "jonas-s-karlsson"
+
+    - time: "17:00"
+      title: "Understanding Javascript - JS core concepts"
+      type: talk
+      speakers:
+        - name: "Daniel Chcouri"
+          slug: "daniel-chcouri"
+      description: |
+        Douglas Crockford, JS guru and the inventor of the JSON format, once said that JS is "world's most misunderstood programming language".
+
+        In the talk I'll cover key concepts of the JS language that I found to be critical for true understanding of the language, among other things I'll talk about Closures, the "this" word and prototypical inheritance.
+
+        The talk is for developers that use JS and want to deepen their understanding of the language.
+
+    - time: "17:30"
+      title: "How to Raise your Inner DevOps Engineers"
+      type: talk
+      speakers:
+        - name: "Carla Souza"
+          slug: "carla-souza"
+      description: |
+        "DevOps" is one of those buzzwords that, even though not everybody agrees on its definition, it is known of its importance in today's software industry.
+        DevOps culture has a fast growing community, with daily new tools available to make every engineers' life better, faster, more efficient and more scalable.
+        In this talk, I will speak about the DevOps culture, why it was born, why is it important and how flexible and dynamic it is.
+        I will also talk about the crucial points of my life that directed me to get into this field and what you can do to help others and yourself to grow into a better engineer.
 
 - section: Closing & After Party
   slots:

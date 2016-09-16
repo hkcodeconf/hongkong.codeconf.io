@@ -19,6 +19,13 @@
   twitter: carlaas
   github: carlasouza
 
+- slug: daniel-chcouri
+  name: Daniel Chcouri
+  image_url: "/images/2016/speakers/daniel-chcouri.jpg"
+  bio: "Full-Stack developer. Founder and manager of MeteorSpark, a Hong Kong based Meteor consultancy."
+  twitter: daniel_chcouri
+  github: theosp
+
 - slug: emmanuel-prochasson
   name: Emmanuel Prochasson
   image_url: "/images/2016/speakers/emmanuel-prochasson.jpg"
@@ -64,3 +71,10 @@ From Solaris and UnixWare to Android and PalmOS, with a lot of Linux and a fair 
   name: Rowland Watkins
   image_url: "/images/2016/speakers/rowland-watkins.jpg"
   bio: "Hacker working in financial services, currently developing trading platforms I'm Scala and Akka."
+
+- slug: thomas-pun
+  name: Thomas Pun
+  image_url: "/images/2016/speakers/thomas-pun.jpg"
+  bio: "Hong Kong Native. Y Combinator and Apple alumni. Advisors to several HK and SF startups. Currently doing growth in Hong Kong for Stripe."
+  github: tpun
+  twitter: thomaspun
