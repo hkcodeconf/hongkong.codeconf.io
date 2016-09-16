@@ -70,7 +70,7 @@ This year, Pebble is releasing new devices, and a new OS and SDK revision, inclu
       speakers:
         - name: "Jack Chen"
           slug: "jack-chen"
-      description: "Object-relational mapping (ORM) is convenient and widely used in many frameworks to manipulate objects without writing tedious SQL. But meanwhile it also brings a lot of problems on system performance, maintenance and scalability. On the other hand, programming SQL (e.g. PostgreSQL) for your data logic is perhaps as bad as you think, and should not be ignored."
+      description: "Object-relational mapping (ORM) is convenient and widely used in many frameworks to manipulate objects without writing tedious SQL. But meanwhile it also brings a lot of problems on system performance, maintenance and scalability. On the other hand, programming SQL (e.g. PostgreSQL) for your data logic is perhaps not as bad as you think, and should not be ignored."
 
     - time: "15:00"
       title: "A Day at the Races: a Data Science Extravaganza"
