@@ -215,6 +215,12 @@ section {
 	h1, h2, h3 {
 		@extend %header2;
 	}
+
+	.mission-statement {
+		max-width: 600px;
+		text-align: left;
+		margin: auto;
+	}
 }
 
 @keyframes flap {
