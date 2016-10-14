@@ -98,13 +98,6 @@ This year, Pebble is releasing new devices, and a new OS and SDK revision, inclu
       description: "What happened in between visitors entering their credit card number on your site to you receiving the fund?"
 
     - time: "16:30"
-      title: "*to be confirmed*"
-      # type: talk
-      # speakers:
-      #   - name: "Jonas S Karlsson"
-      #     slug: "jonas-s-karlsson"
-
-    - time: "17:00"
       title: "Understanding Javascript - JS core concepts"
       type: talk
       speakers:
@@ -117,7 +110,7 @@ This year, Pebble is releasing new devices, and a new OS and SDK revision, inclu
 
         The talk is for developers that use JS and want to deepen their understanding of the language.
 
-    - time: "17:30"
+    - time: "17:00"
       title: "How to Raise your Inner DevOps Engineers"
       type: talk
       speakers:
@@ -131,7 +124,7 @@ This year, Pebble is releasing new devices, and a new OS and SDK revision, inclu
 
 - section: Closing & After Party
   slots:
-    - time: "18:00"
+    - time: "17:30"
       title: "Closing / Thank you"
 
     - time: "19:00"
