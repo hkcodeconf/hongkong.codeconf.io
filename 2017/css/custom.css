@@ -1,0 +1,35 @@
+nav.bg-transparent {
+  background: rgba(0, 0, 0, 0);
+}
+
+nav.bg-transparent .nav-bar {
+  border-bottom: none;
+}
+
+
+nav.bg-transparent .menu li a {
+  color: white;
+  opacity: 0.7;
+}
+
+
+.btn {
+  font-size: 16px;
+}
+
+.button-tabs .tab-title span {
+  font-size: 16px;
+}
+
+
+.section-cta-buy-ticket .cta-text {
+  vertical-align: middle;
+}
+
+.image-speaker {
+  height: 120px;
+}
+
+.icon-slack-group {
+  height: 64px;
+}
