@@ -15,10 +15,10 @@ markdown: kramdown
 sass:
   style: compressed
 
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
-  profile: false
-  ignore:
-    envs: [local]
+# compress_html:
+#   clippings: all
+#   comments: ["<!-- ", " -->"]
+#   endings: all
+#   profile: false
+#   ignore:
+#     envs: [local]
