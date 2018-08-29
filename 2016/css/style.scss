@@ -1,3 +1,6 @@
+---
+---
+
 // media query mixin
 @mixin media($media-query){
 	@if $media-query == small{
@@ -32,6 +35,14 @@ html, body {
 	margin: 0;
 }
 
+.overlay {
+   background: transparent;
+   position: absolute;
+   width: 100%;
+   height: 500px; /* your iframe height */
+   top: 500px;  /* your iframe height */
+   margin-top: -500px;  /* your iframe height */
+}
 body {
 	font-family: 'Droid Serif',Helvetica, Arial, sans-serif;
 	font-weight: 300;
@@ -168,6 +179,7 @@ section {
 		margin: 0 auto;
 	}
 	h3 {
+		color: white;
 		text-align: center;
 		font-weight: 400;
 		margin-top: 0;
@@ -192,6 +204,9 @@ section {
 	.section-self-link + p {
 		margin-top: 10px;
 	}
+	.speaker-body p {
+		margin-bottom: 10px;
+	}
 }
 
 #about {
@@ -199,6 +214,12 @@ section {
 	color: $light;
 	h1, h2, h3 {
 		@extend %header2;
+	}
+
+	.mission-statement {
+		max-width: 600px;
+		text-align: left;
+		margin: auto;
 	}
 }
 
@@ -226,32 +247,32 @@ section {
 
 .bg1 {
 	background:
-	url(../images/background.jpg),
-	url(../images/pattern.png),
-	linear-gradient($blue 0%, $red 100%),
-	linear-gradient(to right, $blue 0%, $red 100%);
+	url(/images/2016/bg1.jpg);
+	// url(/images/pattern.png),
+	// linear-gradient($blue 0%, $red 100%),
+	// linear-gradient(to right, $blue 0%, $red 100%);
   background-size: cover;
-	background-position: center;
+	background-position: top left;
 }
 
 .bg2 {
 	background:
-	url(../images/background2.jpg),
-	url(../images/pattern.png),
-	linear-gradient($red 0%, $blue 100%),
-	linear-gradient(to right, $blue 0%, $red 100%);
+	url(/images/2016/bg2.jpg);
+	// url(../images/pattern.png),
+	// linear-gradient($red 0%, $blue 100%),
+	// linear-gradient(to right, $blue 0%, $red 100%);
   background-size: cover;
 	background-position: center;
 }
 
 .bg3 {
 	background:
-	url(../images/background3.jpg),
-	url(../images/pattern.png),
-	linear-gradient($blue 0%, $red 100%),
-	linear-gradient(to right, $red 100%, $blue 0%);
+	url(/images/2016/bg3.jpg);
+	// url(../images/pattern.png),
+	// linear-gradient($blue 0%, $red 100%),
+	// linear-gradient(to right, $red 100%, $blue 0%);
   background-size: cover;
-	background-position: center;
+	background-position: top center;
 }
 
 %small {
@@ -270,7 +291,10 @@ section {
 }
 
 %large {
-	font-size: 60px;
+	font-size: 40px;
+	@include media(small) {
+		font-size: 60px;
+	}
 	@include media(medium) {
 		font-size: 70px;
 	}
@@ -351,6 +375,12 @@ td {
   animation: blink 1s steps(5, start) infinite;
 }
 
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
 section {
 	padding: 3vw 6vw 5vw;
 }
@@ -363,9 +393,27 @@ frame {
 	pointer-events: none;
 }
 
+#lion-logo {
+	width: 240px;
+	height: 240px;
+	margin-bottom: 10px;
+
+	@include media(small) {
+		width: 300px;
+		height: 300px;
+	}
+}
 
 #schedule {
 	background: lighten($blue, 50%);
+
+  td {
+		vertical-align: top;
+	}
+
+	.schedule-talk {
+		max-width: 576px;
+	}
 }
 
 #about {
