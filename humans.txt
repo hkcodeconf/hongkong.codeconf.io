@@ -4,13 +4,10 @@
 # TEAM
 
     Matthew Rudy Jacobs -- @matthewrudy
-    Ben Crox -- @bencrox
-    Charis Rooda -- @charisrooda
-    Eddie Lau -- @3dd13
-    Jimmy Chu --
-    Steve Holmes -- @steholmes
+    Jack Chen -- @aquajach
+    Pedro Pimentel -- @zukunftsalick
 
 # THANKS
 
     Codeaholics -- support
-    Hong Kong Science Park -- venue
+    Credit Suisse -- venue
