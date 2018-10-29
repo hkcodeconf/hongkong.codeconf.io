@@ -1,0 +1,28 @@
+.col-pink {
+    color: #ec398b;
+}
+
+.col-orange {
+    color: #efa506;
+}
+
+.col-blue {
+    color: #00acee;
+}
+
+.col-green {
+    color: #8dc63f;
+}
+
+.col-yellow {
+    color: #fff200;
+}
+
+.lgx-banner-info {
+    /* background: rgba(255, 255, 255, 0.6); */
+}
+
+.lgx-footer .logo img {
+    height: 300px;
+    width: 300px;
+}
