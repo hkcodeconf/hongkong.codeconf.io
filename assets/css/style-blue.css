@@ -14480,7 +14480,8 @@ blockquote.lgx-testi-single:before {
   }
 
   .lgx-gallery-area .lgx-gallery-single {
-    width: 50%;
+    width: 100%;
+    margin-bottom: 10px;
   }
 
   .lgx-heading {
