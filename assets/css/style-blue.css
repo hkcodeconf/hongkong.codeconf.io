@@ -10654,6 +10654,12 @@ lgx-zoomInUp
   display: block;
 }
 
+@media (max-width: 480px) {
+  .lgx-panel .panel-body {
+    margin-left: 0;
+  }
+}
+
 .lgx-panel .lgx-single-schedule {
   display: flex;
   padding: 2rem 1.5rem;
