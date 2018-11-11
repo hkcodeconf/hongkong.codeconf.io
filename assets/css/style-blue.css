@@ -12835,17 +12835,6 @@ blockquote.lgx-testi-single:before {
     display: block;
   }
 
-  .lgx-registration-area .lgx-single-registration {
-    width: 50%;
-    float: left;
-  }
-
-  .lgx-registration-area2 .lgx-single-registration {
-    width: 47%;
-    float: left;
-    margin-bottom: 2rem;
-  }
-
   .lgx-milestone .lgx-counter-area {
     margin-bottom: 9rem;
   }
@@ -12876,11 +12865,6 @@ blockquote.lgx-testi-single:before {
 
   .lgx-about-img-sp {
     margin-top: 4.2rem;
-  }
-
-  .lgx-registration-area .lgx-single-registration {
-    width: 48%;
-    margin-bottom: 2.6rem;
   }
 
   /************** 991 GLOBAl USE END ***********/
