@@ -13314,3 +13314,7 @@ blockquote.lgx-testi-single:before {
 .white-bg {
   background: white;
 }
+
+.lgx-about-content .text {
+  margin-bottom: 1rem;
+}
